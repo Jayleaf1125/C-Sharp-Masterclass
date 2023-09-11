@@ -1,0 +1,15 @@
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\bin\Debug\net6.0\Masterclass.exe
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\bin\Debug\net6.0\Masterclass.deps.json
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\bin\Debug\net6.0\Masterclass.runtimeconfig.json
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\bin\Debug\net6.0\Masterclass.dll
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\bin\Debug\net6.0\Masterclass.pdb
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.csproj.AssemblyReference.cache
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.AssemblyInfoInputs.cache
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.AssemblyInfo.cs
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.dll
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\refint\Masterclass.dll
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.pdb
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\Masterclass.genruntimeconfig.cache
+C:\Users\Jason\Desktop\C# Masterclass\Masterclass\obj\Debug\net6.0\ref\Masterclass.dll
