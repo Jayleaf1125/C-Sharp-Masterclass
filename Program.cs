@@ -575,6 +575,56 @@ namespace Main
         }
 
         static void Dict() {
+            Student[] studnets = {
+                new Student(1, "Denis", 88),
+                new Student(2, "Olaf", 97),
+                new Student(6, "Ragner", 65),
+                new Student(4, "Levi", 58),
+            };
+
+            Dictionary<string, Student> studentsDict = new Dictionary<string, Student>();
+
+            foreach (Student s in studnets) {
+                studentsDict.Add(s.Name, s);
+            }
+
+            Student student = studentsDict["Denis"];
+            // Console.WriteLine("Student ID: {0} | Name: {1} | GPA: {2}", student.Id, student.Name, student.GPA);
+
+                // while(true) {
+                //     Student selectedStudent;
+
+                //     Console.Write("Enter a studnet's name: ");
+                //     string userInput = Console.ReadLine();
+
+                //     if(studentsDict.TryGetValue(userInput, out selectedStudent)) {
+                //         Console.ForegroundColor = ConsoleColor.Yellow;
+                //         Console.WriteLine("Student ID: {0} | Name: {1} | GPA: {2}", selectedStudent.Id, selectedStudent.Name, selectedStudent.GPA);
+                //         Console.ForegroundColor = ConsoleColor.White;
+
+                //         Console.Write("Would you like to view another studnet: Y / N ");
+                //         char anthoerUserInput = Convert.ToChar(Console.ReadLine());
+
+                //         if(anthoerUserInput == 'Y') {
+                //             continue;
+                //         } else {
+                //             break;
+                //         }
+                //     } else {
+                //         Console.WriteLine("Student Does Not Exist On File");
+                //         Console.WriteLine();
+                //     }
+                // }
+
+            for(int i = 0; i < studentsDict.Count; i++) {
+                KeyValuePair<string, Student> keyValuePair = studentsDict.ElementAt(i);
+
+                string student_name = keyValuePair.Key;    
+                Student studnet_information = keyValuePair.Value; 
+
+                Console.WriteLine("Student ID: {0} | Name: {1} | GPA: {2}", studnet_information.Id, student_name, studnet_information.GPA);   
+            }
+
 
         }
     }
