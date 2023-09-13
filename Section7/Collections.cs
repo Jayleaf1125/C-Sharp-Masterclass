@@ -1,6 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 
+            /*
+            #Arrays
+                - Stores a fixed size sequential collection of elements
+                - ONLY of the same type (unless you use the dynamic type, tho it is not recommneded)
+                - All kinds of types: int, string, object, etc.
+                - Great to store a collection of data - easier to think of a collection of variables of the same type stored at contiguous memeory locations
+
+                Declaring an Array:
+                - <type>[] <arrayName>;
+                    int[] grades;
+
+                Initializing an Array:
+                - <type>[] <arrayName> = new <type>[<length/ammountOfEntries>]
+                    int[] grades = new int[5];
+
+                Assigning values to an array:
+                - <arrayName>[<index>] = <value>
+                    grades[0] = 15;
+                    grades[1] = 12;
+
+                    For Loop: Start Step, End Step, Step Size
+            
+            - Adding a underscore for the second agruement of .TryParse() tells the complier you'll like to ignore the value
+
+            - out _ => This tells the computer that we are not interested in the converted number int.TryParse(intput, out _)
+
+            */
+
 namespace Section7
 {
     class Collections {
