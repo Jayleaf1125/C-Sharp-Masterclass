@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Security.Cryptography.X509Certificates;
-using Section8;
+using Section9;
 
 namespace Main
 {
@@ -35,6 +35,19 @@ namespace Main
         {
             Console.Clear();
 
+            Radio radio = new Radio(true, "Rogers", "15hz");
+            radio.ListenRadio();
+            radio.SwitchOff();
+            radio.ListenRadio();
+
+            Console.WriteLine();
+
+            Television tv = new Television(true, "Sony");
+            tv.WatchingTelevision();
+            tv.SwitchOff();
+            tv.WatchingTelevision();
+
+            
             
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj": {}
+    "C:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj": {
+    "C:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj",
+        "projectUniqueName": "C:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj",
         "projectName": "Masterclass",
-        "projectPath": "c:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj",
+        "projectPath": "C:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\Masterclass.csproj",
         "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\obj\\",
+        "outputPath": "C:\\Users\\Jason\\Desktop\\C# Masterclass\\Masterclass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
