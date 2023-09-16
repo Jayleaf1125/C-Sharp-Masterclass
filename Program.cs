@@ -35,19 +35,7 @@ namespace Main
         {
             Console.Clear();
 
-            Radio radio = new Radio(true, "Rogers", "15hz");
-            radio.ListenRadio();
-            radio.SwitchOff();
-            radio.ListenRadio();
 
-            Console.WriteLine();
-
-            Television tv = new Television(true, "Sony");
-            tv.WatchingTelevision();
-            tv.SwitchOff();
-            tv.WatchingTelevision();
-
-            
             
         }
 
