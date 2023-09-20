@@ -35,19 +35,13 @@ namespace Main
         {
             Console.Clear();
             
-            Employee employee = new Employee("Jason Padilla", "Jason", 100000);
-            Boss boss = new Boss("Evan Darkleaf", "Evan", 120000, "Lotus");
-            Trainee trainee = new Trainee("Matthew Padilla", "Matthew", 90000, 5, 8);
+            Ticket t1 = new Ticket(10);
+            Ticket t2 = new Ticket(10);
+            Ticket t3 = new Ticket(20);
 
-            // employee.Work();
-            // employee.Pause();
-            Console.WriteLine(employee.ToString());
-            Console.WriteLine("---------------");
-            // boss.Lead();
-            Console.WriteLine(boss.ToString());
-            Console.WriteLine("---------------");
-            // trainee.Work();
-            Console.WriteLine(trainee.ToString());
+            Console.WriteLine(t1.Equals(t2));
+            Console.WriteLine(t1.Equals(t3));
+
         }
 
         
