@@ -36,6 +36,22 @@ namespace Main
         {
             Console.Clear();
 
+            List<int> numsList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
+            int[] numsArr = new int[] {10, 12, 34, 55};
+
+            CollectionSum(numsList);
+            CollectionSum(numsArr);
+
+        }
+
+        static void CollectionSum(IEnumerable<int> anyCollection) {
+            int sum = 0;
+
+            foreach (int i in anyCollection) {
+                sum += i;
+            }
+
+            Console.WriteLine("Sum: {0}", sum);
         }
             // IEnumerable<int> unknownCollection;
             // unknownCollection = GetCollection(1);
