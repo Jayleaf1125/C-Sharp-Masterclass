@@ -35,19 +35,36 @@ namespace Main
         public static void Main(string[] args)
         {
             Console.Clear();
-            
-            BirdShelter birdShelter = new BirdShelter();
-
-            foreach (Bird bird in birdShelter) {
-                if(!bird.IsNaughtyBird) {
-                    bird.GiveTreat(2);
-                } else {
-                    bird.GiveTreat(1);
-                }
-            }
 
         }
+            // IEnumerable<int> unknownCollection;
+            // unknownCollection = GetCollection(1);
 
-        
+            // Console.WriteLine("This was a List<int>");
+            // foreach (int num in unknownCollection) {
+            //     Console.Write(num + " ");
+            // }
+
+        static IEnumerable<int> GetCollection(int option)
+        {
+            List<int> numsList = new List<int>() { 1, 2, 3, 4, 5 };
+
+            Queue<int> numsQueue = new Queue<int>();
+            numsQueue.Enqueue(6);
+            numsQueue.Enqueue(7);
+            numsQueue.Enqueue(8);
+            numsQueue.Enqueue(9);
+            numsQueue.Enqueue(10);
+
+            switch (option)
+            {
+                case 1:
+                    return numsList;
+                case 2:
+                    return numsQueue;
+                default:
+                    return new int[] { 11, 12, 13, 14, 15 };
+            }
+        }
     }
 }
