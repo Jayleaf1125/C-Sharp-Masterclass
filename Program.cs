@@ -35,12 +35,16 @@ namespace Main
         {
             Console.Clear();
             
-            Ticket t1 = new Ticket(10);
-            Ticket t2 = new Ticket(10);
-            Ticket t3 = new Ticket(20);
+            // Ticket t1 = new Ticket(10);
+            // Ticket t2 = new Ticket(10);
+            // Ticket t3 = new Ticket(20);
 
-            Console.WriteLine(t1.Equals(t2));
-            Console.WriteLine(t1.Equals(t3));
+            // Console.WriteLine(t1.Equals(t2));
+            // Console.WriteLine(t1.Equals(t3));
+
+            Player player = new Player();
+            player.ReadStats();
+            player.ReadSkills();
 
         }
 
