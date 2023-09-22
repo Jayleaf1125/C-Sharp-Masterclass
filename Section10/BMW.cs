@@ -3,6 +3,7 @@ namespace Section10 {
         public string Model { get; set; }
         private string Brand;
         
+        public BMW() {}
         public BMW(int HP, string Color, string Model):base(HP, Color) {
             this.Model = Model;
             this.Brand = "BMW";
@@ -12,7 +13,7 @@ namespace Section10 {
             Console.WriteLine("HP: {0} | Color: {1} | Model: {2}", HP, Color, Model);
         }
 
-        public override void Repair() {
+        public sealed override void Repair() {
             Console.WriteLine("BMW {0} has been repaired", Model);
         }
     }

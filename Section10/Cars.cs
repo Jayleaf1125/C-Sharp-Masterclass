@@ -3,6 +3,7 @@ namespace Section10 {
         protected int HP { get; set; }
         protected string Color { get; set; }
 
+        public Car() {}
         public Car(int HP, string Color) {
             this.HP = HP;
             this.Color = Color;

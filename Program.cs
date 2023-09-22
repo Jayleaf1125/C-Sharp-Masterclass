@@ -36,17 +36,8 @@ namespace Main
         {
             Console.Clear();
 
-            List<Car> cars = new List<Car>
-            {
-                new Audi(200, "Blue", "A4"),
-                new Audi(240, "Red", "A3"),
-                new BMW(280, "Green", "M3"),
-                new BMW(320, "Black", "M4"),
-            };
-
-            foreach (var car in cars) {
-                car.Repair();
-            }
+            M3 m3 = new M3(250, "White", "M3 Super Turbo");
+            m3.Repair();
 
 
         }
