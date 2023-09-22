@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Security.Cryptography.X509Certificates;
-using Section9;
+using Section10;
 
 namespace Main
 {
@@ -36,13 +36,25 @@ namespace Main
         {
             Console.Clear();
 
-            List<int> numsList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
-            int[] numsArr = new int[] {10, 12, 34, 55};
+            List<Car> cars = new List<Car>
+            {
+                new Audi(200, "Blue", "A4"),
+                new Audi(240, "Red", "A3"),
+                new BMW(280, "Green", "M3"),
+                new BMW(320, "Black", "M4"),
+            };
 
-            CollectionSum(numsList);
-            CollectionSum(numsArr);
+            foreach (var car in cars) {
+                car.Repair();
+            }
+
 
         }
+            // List<int> numsList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
+            // int[] numsArr = new int[] {10, 12, 34, 55};
+
+            // CollectionSum(numsList);
+            // CollectionSum(numsArr);
 
         static void CollectionSum(IEnumerable<int> anyCollection) {
             int sum = 0;
