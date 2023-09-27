@@ -36,8 +36,11 @@ namespace Main
         {
             Console.Clear();
 
-            M3 m3 = new M3(250, "White", "M3 Super Turbo");
-            m3.Repair();
+            // M3 m3 = new M3(250, "White", "M3 Super Turbo");
+            // m3.Repair();
+            Lamo lamo = new Lamo(300, "Blue", "Lotus");
+            lamo.ShowDetails();
+            lamo.Repair();
 
 
         }
