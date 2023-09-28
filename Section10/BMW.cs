@@ -1,4 +1,5 @@
 namespace Section10 {
+    // BMW is a Car
     class BMW : Car {
         public string Model { get; set; }
         private string Brand;

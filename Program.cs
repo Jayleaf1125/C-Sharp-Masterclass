@@ -36,14 +36,14 @@ namespace Main
         {
             Console.Clear();
 
-            // M3 m3 = new M3(250, "White", "M3 Super Turbo");
-            // m3.Repair();
-            Lamo lamo = new Lamo(300, "Blue", "Lotus");
-            lamo.ShowDetails();
-            lamo.Repair();
+            Shape[] shapes = { new Cube(5), new Sphere(5), new Cube(7), new Sphere(7), new Cube(10), new Sphere(10) };
 
-
+            foreach (Shape shape in shapes) {
+                shape.GetInfo();
+            }
         }
+
+
             // List<int> numsList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
             // int[] numsArr = new int[] {10, 12, 34, 55};
 
@@ -59,6 +59,7 @@ namespace Main
 
             Console.WriteLine("Sum: {0}", sum);
         }
+        
             // IEnumerable<int> unknownCollection;
             // unknownCollection = GetCollection(1);
 
