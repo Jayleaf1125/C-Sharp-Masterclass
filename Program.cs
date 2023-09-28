@@ -40,6 +40,19 @@ namespace Main
 
             foreach (Shape shape in shapes) {
                 shape.GetInfo();
+
+                Cube iceCube = shape as Cube;
+
+                if(iceCube == null) {
+                    Console.WriteLine("This shape is not a cube");
+                } else {
+                    Console.WriteLine("This shape is a cube");
+                }
+
+                object cub1 = new Cube(90);
+                Cube cub2 = (Cube) cub1;
+
+                Console.WriteLine("{0} has a volume of {1}", cub2.Name, cub2.Volume());
             }
         }
 
